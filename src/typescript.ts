@@ -1,8 +1,37 @@
-const a1 = 3;
-const a2 = 2;
+// type persona = {
+//   nombre: string;
+//   edad: number;
+//   caminar: () => void;
+// };
 
-export function suma(a: number, b: number) {
-  return a + b;
-}
+// function getAddress() {
+//   return {
+//     ciudad: "Santa Perpetua",
+//     pais: "España",
+//   };
+// }
 
-console.log(suma(a1, a2));
+// type Direccion = ReturnType<typeof getAddress>;
+
+// const miDireccion: persona["direccion"] = {
+//   ciudad: "Santa Perpetua",
+//   pais: "España",
+// };
+
+// const saludos: string[] = [];
+// const despedidas: Array<string> = []; // Lo mismo que arriba
+// const stringsAndNumbers: (string | number)[] = [];
+
+// saludos.push("Hola");
+// saludos.push("Buenos días");
+// saludos.push(1234);
+
+// type Coordenadas3D = [number, number, number];
+
+// let miLocalización: Coordenadas3D = [10, 30, 0];
+
+// const enum ERROR_TYPES {
+//   NOT_FOUND,
+//   UNAUTHORIZED,
+//   FORBIDDEN,
+// }
